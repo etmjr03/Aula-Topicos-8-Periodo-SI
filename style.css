@@ -1,3 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: aquamarine;
+    background-image: linear-gradient(to right, #afeeee , #778899);
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
 }
