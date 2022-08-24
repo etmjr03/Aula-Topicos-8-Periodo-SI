@@ -54,3 +54,44 @@ console.log(later.getHours());
 console.log(later.getUTCHours());
 // barra de scape para printar " ' usa-se o \\
 console.log("\"caixa d'agua\"");
+
+// declarado msm variável com vários valores 
+// var x = 'juninho';
+// console.log(x);
+// var x = 2.7;
+// console.log(x);  
+// declarando variavel com let não permite criar outra igual
+// let x1 = 'juninho2';
+// console.log(x1);
+
+// declarando uma variavel e printando a quatidade de caracteres dele
+let a = "Jurema Tereza Rufina Vaz";
+console.log(a.trim().length);
+// caractere de scape
+console.log(`"Joana D'ark"`);
+//caractere igual
+console.log(5 == '5');
+//valor igual
+console.log(5 === 5);
+//declarando valor
+console.log(x = 5);
+
+let c = "maçã, banana, morango";
+console.log(c.slice(-15, -9));
+console.log(c.substring(6, 12));
+// replace troca o primeiro valor pelo segundo
+let d = "maracuja";
+console.log(d.replace("maracuja", "manga"));
+//
+let e = "2";
+console.log(e);
+// preenche com 0 Start -> antes End -> depois só aceita String
+console.log(e.padStart(2,"0"));
+console.log(e.padEnd(2,"0"));
+
+// localiza o ultimo caractere e mostra sua posição do vetor
+let f = "maçã, banana, morango";
+console.log(f.lastIndexOf("a"));
+console.log(f.indexOf("a"));
+// se não tiver no vetor ele printa -1
+console.log(f.indexOf("y"));
